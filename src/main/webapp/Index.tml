@@ -1,0 +1,58 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:p="http://primefaces.org/ui">
+
+    <head>
+        <title>first_pr Start Page</title>
+    </head>
+    <body>
+<t:form t:id="loginForm">
+    <table>
+        <tr>
+            <td><t:label
+                t:for="loginField"/>:</td>
+            <td><t:textfield
+                t:id="loginField"
+                t:value="login"
+                t:label="UserName" />
+            </td>
+        </tr>
+        <tr>
+            <td><t:label
+                t:for="passwordField"/>:</td>
+            <td><t:passwordfield
+                t:id="passwordField"
+                t:label="Password"
+                t:value="password" />
+            </td>
+        </tr>
+        <tr>
+            <td><t:submit t:value="Enter" /></td>
+        </tr>
+    </table>
+</t:form>
+<br></br>
+<br></br>
+<t:form t:id="InfoUser">
+    <table>
+        <tr>
+            <td><t:label
+                t:for="loginField2"/>:</td>
+            <td><t:textfield
+                t:id="loginField2"
+                t:value="login"
+                t:label="UserName" />
+            </td>
+        </tr>
+        <tr>
+            <td><t:submit t:value="Check info" /></td>
+        </tr>
+      </table>
+</t:form>
+<br></br>
+<t:pagelink t:page="reg">Reg</t:pagelink>
+<br></br>
+</body>
+</html>

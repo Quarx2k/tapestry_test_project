@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+<head>
+<title>Reg</title>
+</head>
+<body>
+        <h1>Регистрация нового пользователя</h1>
+        <t:beaneditform t:id="user" t:submitLabel="Сохранить" exclude="id"/>
+    </body>
+</html>
